@@ -1,0 +1,136 @@
+<!-- Use the HTML boilerplate by typing html and pressing enter -->
+
+<!-- To deploy this website you must follow these steps:
+1. In order to do this you must host your website somewhere (GoDaddy, BlueHost, etc.). While we are learning
+we can use the free method of using hosting on GitHub.
+2. Create a GitHub account.
+3. Create a repository on GitHub. A repository is just a folder on the cloud that stores all project related
+files and you can make changes and track changes to those files on the cloud.
+4. Check the box to add a README file. 
+-->
+
+<!-- The DOCTYPE declares which version of HTML is being used. The html tag states that everything that is
+inbetween the opening and closing html tag is going to be html code. The head is the part of the HTML file that
+holds the information about the webpage and tells the browser how it should handle the page. Inside of the head
+tag there is a also a meta tag. This outlines the associated data. The charset attribute outlines that all of the
+text in the webpage is encoded using the UTF-8 (this is the standard when using HTML5 as it includes all
+international sybmbols) enconding system, and informs the browser of this. -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>😁 Steven's Personal Site</title>
+  </head>
+
+  <!-- The body tag defines the body of the document. It contains all of the contents of an HTML document such as
+  headings, paragraphs, images, hyperlinks, tables, lists, etc. There can only be one body tag per HTML document -->
+  <body>
+
+    <!-- Using the alt tag assist with SEO as Google will crawl the page to determmine what your page is about and
+    will account for these alt attributes.  -->
+    <table cellspacing="20px">
+      <tr>
+        <td><img src="images/StevenMansfield.jpg" alt="Gary, Steven, Josh, Taylor at Rock 102" /></td>
+        <td>
+
+          <!-- heading tags (h1, h2, etc.) also assist with SEO as Google will use these to determine whats on the page.  -->
+          <h1>Steven Mansfield</h1>
+
+          <!-- The HTML p tag represents a paragraph of text. This will be on a new line and groups the text together in
+          the same paragraph.  -->
+          <p>
+
+            <!-- Use the em tag as opposed to the i tag as it declares the text to have importance as well as adding italic
+            styling. Same goes for the b tag and the strong tag. -->
+            <em>Soon To Be <strong><a href="https://en.wikipedia.org/wiki/Freelancer">Freelance Developer</a></strong></em>
+          </p>
+          <p>
+            I am a recent graduate from the <a href="https://www.sait.ca/">Southern Alberta Institute of Technology</a>.
+            I graduated from the Information Technology Program with a major in Software Development. I am now a Co-op
+            Student Software Developer at <a href="https://www.westjet.com/en-ca">WestJet</a>.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <hr>
+
+
+    <h3>Education</h3>
+    <ul>
+      <li>Southern Alberta Institute of Technology</li>
+      <li>Lord Beaverbrook High School</li>
+    </ul>
+    <hr>
+
+
+    <h3>Work Experience</h3>
+
+    <!-- This is the table element. Inside there are table rows (tr) which then house table data (td). Table data are the
+    individual records within the table. You can also add in table headers (thead), table body (tbody), and table footers
+    (tfoot). Inside the table head you add the names of the columns which are then formated by default to be bolded. th tags,
+    which are like table data inside of a header, are used to create these cells. The reason that you have these cells Inside
+    of the thead or tfoot is because it makes for simpler styling once you start with CSS. tbody contains all the table
+    contents. -->
+    <table cellspacing="10px">
+      <thead>
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2022-Present</td>
+          <td>Co-op Student Software Developer at WestJet</td>
+        </tr>
+        <tr>
+          <td>2019-2020</td>
+          <td>Auto Claims Specialist at Co-operators Insurance Company</td>
+        </tr>
+        <tr>
+          <td>2010-2019</td>
+          <td>Front Office Manager Hilton at Garden Inn Calgary Airport</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
+
+    <h3>Skills</h3>
+    <table cellspacing="10px">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>HTML</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>JavaScript</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <hr>
+
+
+    <h3>Links</h3>
+    <a href="hobbies.html">My Hobbies</a>
+    <br>
+    <a href="contact.html">Contact Me</a>
+  </body>
+</html>

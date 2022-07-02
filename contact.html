@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+      <p>403-222-3333</p>
+      <p>smansfield333@gmail.com</p>
+      <p>543 Main Road Drive Street SW</p>
+      <hr>
+      <!-- We use the form tag to house all of the details of a form. This tag does nothing on its own, it requires label
+      and form tags to have a purpose. Inputs are self-closing tags. The type attribute is where you create different objects
+      that you want to see in your form. Enctype determines the encoding type for the message and gets rid of additional
+      characters. Remove the enctype attribute to see the before and after. -->
+      <h3>Enter Your Info</h3>
+      <form action="mailto:smansfield33@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+
+        <!-- The term for when you cannot see the text when entering in a password field is "masked." -->
+        <label for="">Your Message:</label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <input type="submit">
+      </form>
+      <br>
+
+      <!-- <hr>
+      <h3>Mock Form</h3>
+      <form>
+        <input type="text"><br>
+        <input type="submit"><br>
+        <input type="date"><br>
+        <input type="radio"><br>
+        <input type="range"><br>
+      </form> -->
+
+  </body>
+</html>
